@@ -28,7 +28,7 @@ CI ( continuous Integration )
 
 Jenkins Job      : maven goal           : post build action 
                 
-                 
+job  -compile     : compile                 
 job1-codereview	 : -P metrics pmd:pmd   : **/pmd.xml ( publish pmd analysis results )
                  
 job2-unittest    : test                 : target/surefire-reports/*.xml
